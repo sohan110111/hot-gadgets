@@ -1,0 +1,262 @@
+body {
+
+    font-family: 'Roboto';
+
+}
+
+
+
+.margin-btm {
+
+    margin-bottom: 50px;
+
+}
+
+
+
+.car-bg {
+
+    background-image: url("images/carousel-bg.png");
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    height: 480px;
+
+}
+
+.btn {
+
+    background-color: #000;
+
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+
+
+.btn:hover {
+
+    background-color: #fff;
+
+    color: #000;
+
+    font-weight: bold;
+
+    border: 1px solid #000;
+
+    border-radius: 5px;
+
+}
+
+
+
+.carousel-indicators li {
+
+    background-color: #fc3;
+
+}
+
+
+
+.see-all {
+
+    color: #fc3;
+
+}
+
+
+
+.see-all:hover {
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+
+
+.card {
+
+    -webkit-box-shadow: 0 5px 10px lightgray;
+
+    box-shadow: 0 5px 10px lightgray;
+
+    border-radius: 10px;
+
+    padding-top: 20px;
+
+}
+
+
+
+.card-body {
+
+    text-align: center;
+
+}
+
+
+
+.categories {
+
+    text-align: center;
+
+    width: 960px;
+
+    height: 500px;
+
+    margin: auto;
+
+    padding: 0 15px;
+
+}
+
+
+
+.text {
+
+    margin-top: 100px;
+
+    margin-bottom: 50px;
+
+}
+
+
+
+/*---------------following {h2 span} CSS property doesn't work----------------*/
+
+/*h2 span {
+
+    border-bottom: 5px solid;
+
+    -o-border-image: linear-gradient(to right, #fc3, #f90);
+
+    border-image: -webkit-gradient(linear, left top, right top, from(#fc3), to(#f90));
+
+    border-image: linear-gradient(to right, #fc3, #f90);
+
+}*/
+
+
+
+.half-width {
+
+    width: 465px;
+
+    margin-left: 50px;
+
+    padding: 15px;
+
+}
+
+
+.single-img {
+
+    float: left;
+
+    margin: auto;
+
+    padding: 20px;
+
+    position: relative;
+
+    top: 130px;
+
+    display: inline-block;
+
+    border: 1px solid #fff;
+
+    border-radius: 5px 10px 5px 20px;
+
+    -webkit-box-shadow: 0 5px 15px lightgray;
+
+    box-shadow: 0 5px 15px lightgray;
+
+}
+
+
+
+.pair-img {
+
+    float: left;
+
+    margin: auto;
+
+    position: relative;
+
+    display: inline-block;
+
+    border: 1px solid #fff;
+
+    border-radius: 10px 5px 20px 5px;
+
+    -webkit-box-shadow: 0 5px 15px lightgray;
+
+    box-shadow: 0 5px 15px lightgray;
+
+}
+
+
+
+.perfume {
+
+    padding: 20px;
+
+    left: 30px;
+
+}
+
+
+
+.shoe {
+
+    padding: 20px;
+
+    top: 50px;
+
+    left: 196px;
+
+}
+
+
+
+.second-half {
+
+    width: 425px;
+
+    margin-left: 50px;
+
+    padding: 20px;
+
+    float: right;
+
+    position: absolute;
+
+}
+
+
+
+.gray-bg {
+
+    background-image: -webkit-gradient(linear, left top, right top, from(#fc3), to(#f90));
+
+    background-image: linear-gradient(to right, #fc3, #f90);
+
+    border-radius: 10px;
+
+    height: 300px;
+
+    margin-top: 100px;
+
+}
+
+
+
+footer {
+    text-align: center;
+}
